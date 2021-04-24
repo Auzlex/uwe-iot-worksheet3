@@ -27,7 +27,13 @@ payload: 'Welcome to IoT UDP Server'
 
 
 ## Task 2
-In this task
+In this task we had to implement a function called 
+```python
+compute_checksum(source_port: int, dest_port: int, payload: bytearray) -> int
+```
+this function will look at the packet headers and convert them to 2 bytes and will add the headers in binary so that we can perform a ones complement upon the total bytes array given. at the end of the function it will return an int which we will use to compare to the given checksum value received in the packet from communication. if they match the packet is not corrupted and is valid.
+
+**You can run my udp.py script in the "Task 2" folder which contains the python file you can run to test the checksum on the packet there is also a test.py that can be run to test the checksum function, make sure the other files in this folder are present for programs to successfully work. These scripts where tested upon Python 3.8.7 upon the "csctcloud.uwe.ac.uk" server.**
 
 ## Task 3
 In this task
