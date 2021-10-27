@@ -1,4 +1,4 @@
-# iot-worksheet3
+# UWE Assignment Year 2 | Internet Of Things | Worksheet 3
 
 This gitlab contains the work for worksheet 3 for internet of things module at UWE.
 
